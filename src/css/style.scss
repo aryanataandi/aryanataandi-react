@@ -1,0 +1,66 @@
+$primary: #9578d3;
+$info: #c2fbe1;
+$text-color: #c2fbe1;
+$bg-color: #181c18;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+nav {
+  font-family: eucir;
+  /* From https://css.glass */
+  background: rgb(32,32,32);
+  background: -moz-linear-gradient(0deg, rgba(32,32,32,0) 0%, rgba(24,28,24,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(32,32,32,0) 0%, rgba(24,28,24,1) 100%);
+  background: linear-gradient(0deg, rgba(32,32,32,0) 0%, rgba(24,28,24,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020",endColorstr="#181c18",GradientType=1); 
+  box-shadow: 0 4px 30px $bg-color;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  a {
+    color: $text-color !important;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: eucir;
+}
+
+p {
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+body {
+  background-color: $bg-color;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: $text-color;
+}
+
+.btn {
+  border: solid 2px $text-color !important;
+  font-family: eucir;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+footer {
+  p, a {
+    font-family: eucir;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
+      line-height: 1.8em;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.navbar {
+    position: fixed !important;
+    top: -100px;
+    width: 100%;
+    opacity: 0;
+    transition-timing-function: ease;
+    transition: .5s;
+    z-index: 1;
+}
+
+.show {
+    top: 0;
+    opacity: 1;
+}
