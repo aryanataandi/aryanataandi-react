@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd98cf10.css",
+    "main.js": "/static/js/main.99e0d6d2.js",
+    "static/media/project-komodo.png": "/static/media/project-komodo.ed89481cfe491e82ec78.png",
+    "index.html": "/index.html",
+    "main.dd98cf10.css.map": "/static/css/main.dd98cf10.css.map",
+    "main.99e0d6d2.js.map": "/static/js/main.99e0d6d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd98cf10.css",
+    "static/js/main.99e0d6d2.js"
+  ]
+}
