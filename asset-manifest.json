@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd98cf10.css",
-    "main.js": "/static/js/main.99e0d6d2.js",
+    "main.css": "/static/css/main.65c45420.css",
+    "main.js": "/static/js/main.3ca164c7.js",
+    "static/media/project-skb.png": "/static/media/project-skb.72b3c3fafee564b2f5cf.png",
     "static/media/project-komodo.png": "/static/media/project-komodo.ed89481cfe491e82ec78.png",
     "index.html": "/index.html",
-    "main.dd98cf10.css.map": "/static/css/main.dd98cf10.css.map",
-    "main.99e0d6d2.js.map": "/static/js/main.99e0d6d2.js.map"
+    "main.65c45420.css.map": "/static/css/main.65c45420.css.map",
+    "main.3ca164c7.js.map": "/static/js/main.3ca164c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd98cf10.css",
-    "static/js/main.99e0d6d2.js"
+    "static/css/main.65c45420.css",
+    "static/js/main.3ca164c7.js"
   ]
 }
