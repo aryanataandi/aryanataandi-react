@@ -53,7 +53,7 @@ const Project = () => {
           </div>
           <div className="col-12 col-lg-6 d-flex text-lg-end">
             <div className="props my-auto">
-              <a href={props.link} className="text-decoration-none" target="_blank">
+              <a href={props.link} className="text-decoration-none" target="_blank" rel="noreferrer">
                 {props.taglink} &rarr;
               </a>
               <h1 className="display-6">{props.title}</h1>
@@ -80,7 +80,7 @@ const Project = () => {
         <div className="row py-3 py-lg-5">
           <div className="col-12 col-lg-6 d-flex">
             <div className="props my-auto">
-              <a href={props.link} className="text-decoration-none" target="_blank">
+              <a href={props.link} className="text-decoration-none" target="_blank" rel="noreferrer">
                 {props.taglink} &rarr;
               </a>
               <h1 className="display-6">{props.title}</h1>
