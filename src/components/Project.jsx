@@ -2,12 +2,14 @@ import React from 'react';
 import parse from 'html-react-parser';
 import komodoImage from '../assets/project-komodo.png';
 import skbImage from '../assets/project-skb.png';
+import tgsImage from '../assets/project-tgs.png';
 
 const Project = () => {
   const projects = [
     {
       id: 1,
-      link: 'belanja.skb.salatiga.go.id',
+      link: 'https://belanja.skb.salatiga.go.id',
+      taglink: 'belanja.skb.salatiga.go.id',
       title: 'SKB Online Shop',
       img: skbImage,
       desc: `
@@ -18,7 +20,8 @@ const Project = () => {
     },
     {
       id: 2,
-      link: 'komodo-os.my.id',
+      link: 'https://komodo-os.my.id',
+      taglink: 'komodo-os.my.id',
       title: 'Komodo OS Website',
       img: komodoImage,
       desc: `
@@ -26,6 +29,18 @@ const Project = () => {
       Provides information & latest releases of many devices by the Komodo OS team.
       `,
       tech: ['SCSS', 'Vue', 'Bootstrap'],
+    },
+    {
+      id: 3,
+      link: 'https://t.me/addstickers/AmpersandChannelDividerID',
+      taglink: 'Ampersand Channel Divider',
+      title: 'TG Animated Stickers',
+      img: tgsImage,
+      desc: `
+      Animated stickers dividers for telegram channel's posts.
+      Having 120.000+ total usage for more than 50 channels.
+      `,
+      tech: ['Telegram', 'Bodymovin', 'Illustrator', 'After Effects'],
     },
   ];
 
@@ -38,8 +53,8 @@ const Project = () => {
           </div>
           <div className="col-12 col-lg-6 d-flex text-lg-end">
             <div className="props my-auto">
-              <a href={`https://${props.link}/`} className="text-decoration-none" target="_blank">
-                {props.link} &rarr;
+              <a href={props.link} className="text-decoration-none" target="_blank">
+                {props.taglink} &rarr;
               </a>
               <h1 className="display-6">{props.title}</h1>
               <div className="card border-0 shadow rounded-3 bg-dark my-3">
@@ -65,8 +80,8 @@ const Project = () => {
         <div className="row py-3 py-lg-5">
           <div className="col-12 col-lg-6 d-flex">
             <div className="props my-auto">
-              <a href={`https://${props.link}/`} className="text-decoration-none" target="_blank">
-                {props.link} &rarr;
+              <a href={props.link} className="text-decoration-none" target="_blank">
+                {props.taglink} &rarr;
               </a>
               <h1 className="display-6">{props.title}</h1>
               <div className="card border-0 shadow rounded-3 bg-dark my-3">
@@ -94,9 +109,9 @@ const Project = () => {
       {projects.map((project) => (
         <>
           {project.id % 2 !== 0 ? (
-            <LayoutOdd id={project.id} link={project.link} title={project.title} img={project.img} desc={project.desc} tech={project.tech} />
+            <LayoutOdd id={project.id} link={project.link} taglink={project.taglink} title={project.title} img={project.img} desc={project.desc} tech={project.tech} />
           ) : (
-            <LayoutEven id={project.id} link={project.link} title={project.title} img={project.img} desc={project.desc} tech={project.tech} />
+            <LayoutEven id={project.id} link={project.link} taglink={project.taglink} title={project.title} img={project.img} desc={project.desc} tech={project.tech} />
           )}
         </>
       ))}
