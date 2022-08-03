@@ -14,9 +14,13 @@ export class Footer extends Component {
             </ul>
           </div>
         </div>
-        <div className="my-4 d-flex justify-content-between">
-          <p className='text-secondary'>Copyright &copy; Aryanata Andipradana 2022</p>
-            <a href="https://github.com/aryanataandi/aryanataandi.github.io" className='text-secondary'>More about this website &rarr;</a>
+        <div className="my-4 row">
+          <div className="col-12 col-md-6 text-center text-md-start">
+            <p className='text-secondary m-0'>Designed {"&"} Built by Aryanata Andipradana</p>
+          </div>
+          <div className="col-12 col-md-6 text-center text-md-end">
+            <a href="https://github.com/aryanataandi/aryanataandi.github.io" className='text-secondary'>About this website &rarr;</a>
+          </div>
         </div>
       </footer>
     );
