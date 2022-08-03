@@ -8,10 +8,9 @@ export class Footer extends Component {
           <div className="col">
             <p>Connect w/ me on..</p>
             <ul className='text-primary'>
-              <li><a className='text-primary' href="https://twitter.com/aryanata_andi/" target='_blank'>Twitter.</a></li>
-              <li><a className='text-primary' href="https://instagram.com/aryanata_andi/" target='_blank'>Instagram.</a></li>
-              <li><a className='text-primary' href="https://www.linkedin.com/in/aryanata-andipradana-43a02a181/" target='_blank'>LinkedIn.</a></li>
-              {/* <li><a className='text-primary' href="" target='_blank'>Telegram.</a></li> */}
+              <li><a className='text-primary' href="https://twitter.com/aryanata_andi/" target='_blank'>Twitter</a></li>
+              <li><a className='text-primary' href="https://instagram.com/aryanata_andi/" target='_blank'>Instagram</a></li>
+              <li><a className='text-primary' href="https://www.linkedin.com/in/aryanata-andipradana-43a02a181/" target='_blank'>LinkedIn</a></li>
             </ul>
           </div>
         </div>

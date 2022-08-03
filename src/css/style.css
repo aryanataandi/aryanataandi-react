@@ -10927,6 +10927,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: eucir;
 }
 
+a.btn:hover {
+  color: #181c18 !important;
+}
+
+a:hover {
+  color: #c2fbe1 !important;
+  transition: 0.2s;
+}
+
 p {
   font-family: "Roboto Flex", sans-serif;
 }
@@ -10948,6 +10957,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   box-shadow: none !important;
 }
 
+footer a {
+  text-decoration: none;
+}
 footer p, footer a {
   font-family: eucir;
 }
@@ -10956,5 +10968,5 @@ footer ul {
 }
 footer ul li {
   list-style: none;
-  line-height: 1.8em;
+  line-height: 2em;
 }/*# sourceMappingURL=style.css.map */

@@ -50,6 +50,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: eucir;
 }
 
+a.btn:hover {
+  color: $bg-color !important;
+}
+
+a:hover {
+  color: $text-color !important;
+  transition: .2s;
+}
+
 p {
   font-family: 'Roboto Flex', sans-serif;
 }
@@ -72,6 +81,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 footer {
+  a {
+    text-decoration: none;
+  }
+
   p, a {
     font-family: eucir;
   }
@@ -81,7 +94,7 @@ footer {
 
     li {
       list-style: none;
-      line-height: 1.8em;
+      line-height: 2em;
     }
   }
 }
