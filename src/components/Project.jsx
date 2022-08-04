@@ -37,7 +37,7 @@ const Project = () => {
       title: 'TG Animated Stickers',
       img: tgsImage,
       desc: `
-      Animated stickers dividers for telegram channel's posts.
+      Animated sticker pack for channel posts divider on <a href="https://en.wikipedia.org/wiki/Telegram_(software)" class="text-decoration-none">Telegram</a>.
       Having 120.000+ total usage for more than 50 channels.
       `,
       tech: ['Telegram', 'Bodymovin', 'Illustrator', 'After Effects'],
@@ -64,7 +64,7 @@ const Project = () => {
               </div>
               <div className="">
                 {props.tech.map((item) => (
-                  <span className="text-primary fw-bold ms-0 ms-lg-4 me-4 me-lg-0">{item}</span>
+                  <span className="text-primary ms-0 ms-lg-4 me-4 me-lg-0">{item}</span>
                 ))}
               </div>
             </div>
@@ -91,7 +91,7 @@ const Project = () => {
               </div>
               <div className="">
                 {props.tech.map((item) => (
-                  <span className="text-primary fw-bold me-4">{item}</span>
+                  <span className="text-primary me-4">{item}</span>
                 ))}
               </div>
             </div>
