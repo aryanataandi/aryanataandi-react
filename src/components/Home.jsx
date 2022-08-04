@@ -24,18 +24,8 @@ function Home() {
           </h1>
           <br />
           <p className="fs-4">
-            I do{' '}
-            <strike className="text-danger" data-tip data-for="dead">
-              gaming
-            </strike>{' '}
-            coding for a living. I build web applications and delivering the best experience so we could solve real business-problems with our clients. Occasionally, i also works on design projects such as motion design, web design, animation, video editing and more.</p>
-
-          <ReactTooltip id="dead" place="top" effect="solid" backgroundColor="white" textColor="black">
-            for fun. ☠️
-          </ReactTooltip>
-          <ReactTooltip id="job" place="top" effect="solid" backgroundColor="white" textColor="black">
-            a.k.a. Fullstack Web Developer
-          </ReactTooltip>
+            I am a web developer. I build web applications and provide the best experience in solving real business problems. Occasionally, i also works on design projects such as web design, animation, video editing and more.
+          </p>
 
           <a href="/" className="btn btn-outline-primary px-3 py-2 mt-2">
             More About Me
