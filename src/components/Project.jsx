@@ -37,7 +37,7 @@ const Project = () => {
       title: 'TG Animated Stickers',
       img: tgsImage,
       desc: `
-      Animated sticker pack for channel posts divider on <a href="https://en.wikipedia.org/wiki/Telegram_(software)" class="text-decoration-none">Telegram</a>.
+      Animated sticker pack for channel posts divider on <a href="https://en.wikipedia.org/wiki/Telegram_(software)" class="text-decoration-none" target="_blank" rel="noreferrer">Telegram</a>.
       Having 120.000+ total usage for more than 50 channels.
       `,
       tech: ['Telegram', 'Bodymovin', 'Illustrator', 'After Effects'],
