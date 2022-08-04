@@ -28,10 +28,7 @@ function Home() {
             <strike className="text-danger" data-tip data-for="dead">
               gaming
             </strike>{' '}
-            coding for a living. I'm a web developer, i build web applications and delivering the best experience so we could solve real business-problems with our clients. In my current job, i handle both front-end {'&'} back-end of a web
-            development.
-          </p>
-          <p className="fs-4">Occasionally, i also works on design projects such as motion design, web design, animation, video editing and more.</p>
+            coding for a living. I build web applications and delivering the best experience so we could solve real business-problems with our clients. Occasionally, i also works on design projects such as motion design, web design, animation, video editing and more.</p>
 
           <ReactTooltip id="dead" place="top" effect="solid" backgroundColor="white" textColor="black">
             for fun. ☠️
@@ -40,8 +37,8 @@ function Home() {
             a.k.a. Fullstack Web Developer
           </ReactTooltip>
 
-          <a href="#" className="btn btn-outline-primary px-3 py-2 mt-2">
-            More about me &nbsp;&rarr;
+          <a href="/" className="btn btn-outline-primary px-3 py-2 mt-2">
+            More About Me
           </a>
         </div>
       </section>
@@ -49,6 +46,16 @@ function Home() {
         <div className="py-5">
           <h1 className="display-5">My Work</h1>
           <Project/>
+          <div className="my-2">
+            <h3 className="text-center">
+              Other Things I've Worked On
+            </h3>
+            <div className="d-flex">
+              <a href="/" className="btn btn-outline-primary mx-auto px-3 py-2 mt-2">
+                Projects Archive
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </>
