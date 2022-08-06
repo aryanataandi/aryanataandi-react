@@ -2,6 +2,7 @@ $primary: #9578d3;
 $info: #c2fbe1;
 $text-color: #c2fbe1;
 $bg-color: #181c18;
+$blur: 8px;
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
@@ -9,7 +10,7 @@ $bg-color: #181c18;
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: $primary $bg-color;
+  scrollbar-color: $secondary $bg-color;
 }
 
 /* Chrome, Edge, and Safari */
@@ -22,7 +23,7 @@ $bg-color: #181c18;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: $primary;
+  background-color: $secondary;
   border-radius: 10px;
   border: 4px solid $bg-color;
 }
@@ -36,8 +37,8 @@ nav {
   background: linear-gradient(0deg, rgba(32, 32, 32, 0) 0%, rgba(24, 28, 24, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020",endColorstr="#181c18",GradientType=1);
   box-shadow: 0 4px 30px $bg-color;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur($blur);
 
   a {
     color: $text-color !important;
