@@ -63,8 +63,8 @@ const Project = () => {
                 </div>
               </div>
               <div className="">
-                {props.tech.map((item) => (
-                  <span className="text-primary ms-0 ms-lg-4 me-4 me-lg-0">{item}</span>
+                {props.tech.map((item, index) => (
+                  <span key={index} className="text-primary ms-0 ms-lg-4 me-4 me-lg-0">{item}</span>
                 ))}
               </div>
             </div>
@@ -90,8 +90,8 @@ const Project = () => {
                 </div>
               </div>
               <div className="">
-                {props.tech.map((item) => (
-                  <span className="text-primary me-4">{item}</span>
+                {props.tech.map((item, index) => (
+                  <span key={index} className="text-primary me-4">{item}</span>
                 ))}
               </div>
             </div>
@@ -106,14 +106,14 @@ const Project = () => {
 
   return (
     <>
-      {projects.map((project) => (
-        <>
+      {projects.map((project, index) => (
+        <div key={index}>
           {project.id % 2 !== 0 ? (
             <LayoutOdd id={project.id} link={project.link} taglink={project.taglink} title={project.title} img={project.img} desc={project.desc} tech={project.tech} />
           ) : (
             <LayoutEven id={project.id} link={project.link} taglink={project.taglink} title={project.title} img={project.img} desc={project.desc} tech={project.tech} />
           )}
-        </>
+        </div>
       ))}
     </>
   );
