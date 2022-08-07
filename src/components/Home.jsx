@@ -37,13 +37,13 @@ function Home() {
           <h1 className="display-5">My Work</h1>
           <Project/>
           <div className="my-2">
-            <h3 className="text-center">
-              Other Things I've Worked On
-            </h3>
+            <h1 className="display-6 text-center">
+              Other Things I've Been Worked On
+            </h1>
             <div className="d-flex">
-              <a href="/" className="btn btn-outline-primary mx-auto px-3 py-2 mt-2">
+              <Link  to="/archive" className="btn btn-outline-primary mx-auto px-3 py-2 mt-2">
                 Projects Archive
-              </a>
+              </Link>
             </div>
           </div>
         </div>
