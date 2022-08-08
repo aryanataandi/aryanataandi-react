@@ -10936,7 +10936,7 @@ a:hover {
   transition: 0.2s;
 }
 
-p {
+p, table {
   font-family: "Roboto Flex", sans-serif;
 }
 

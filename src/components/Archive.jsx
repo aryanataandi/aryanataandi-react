@@ -89,11 +89,9 @@ const Archive = () => {
   };
 
   return (
-    <section className="mt-5 pt-3">
-      <div className="py-5">
+    <section>
         <h1 className="display-5">Project Archive</h1>
         <p className="fs-4 text-primary">List of all things that i've made</p>
-      </div>
       <table className="text-info">
         <thead className="text-secondary">
           <tr>
