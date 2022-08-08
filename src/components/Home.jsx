@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from './Project';
 import ReactTooltip from 'react-tooltip';
+import { Link } from 'react-router-dom';
 import './home.css';
 
 function Home() {
