@@ -64,34 +64,59 @@ const Archive = () => {
     let result;
 
     for (const key in props) {
-      if (props.hasOwnProperty('external')) {
-        result = (
-          <a href={props['external']}>
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-          </a>
-        );
-      } else if (props.hasOwnProperty('github')) {
-        result = (
-          <a href={props.github}>
-            <i class="fa-brands fa-github"></i>
-          </a>
-        );
-      } else if (props.hasOwnProperty('private')) {
-        result = (
-          <a href={props.private}>
-            <i class="fa-solid fa-lock"></i>
-          </a>
-        );
+      if (Object.hasOwnProperty.call(props, key)) {
+        for (const item in props[key]) {
+          if (Object.keys(props[key]) == 'external') {
+            result = (
+              <a href={props[key]['external']} target="_blank" rel="noreferer">
+                <i className="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+              </a>
+            );
+          }
+          if (Object.keys(props[key]) == 'github') {
+            result = (
+              <a href={props[key]['github']} target="_blank" rel="noreferer">
+                <i className="fa-brands fa-github fa-lg"></i>
+              </a>
+            );
+          }
+          if (Object.keys(props[key]) == 'private') {
+            result = (
+              <a href={props[key]['private']} target="_blank" rel="noreferer">
+                <i className="fa-solid fa-lock fa-lg"></i>
+              </a>
+            );
+          }
+        }
       }
     }
+    /* if (props[key].hasOwnProperty('external')) {
+      result = (
+        <a href={props[key]['external']}>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      );
+    } else if (props.key.hasOwnProperty('github')) {
+      result = (
+        <a href={props[key]['github']}>
+          <i class="fa-brands fa-github"></i>
+        </a>
+      );
+    } else if (props.key.hasOwnProperty('private')) {
+      result = (
+        <a href={props[key]['private']}>
+          <i class="fa-solid fa-lock"></i>
+        </a>
+      );
+    } */
 
     return result;
   };
 
   return (
     <section>
-        <h1 className="display-5">Project Archive</h1>
-        <p className="fs-4 text-primary">List of all things that i've made</p>
+      <h1 className="display-5">Project Archive</h1>
+      <p className="fs-4 text-primary">List of all things that i've made</p>
       <table className="text-info">
         <thead className="text-secondary">
           <tr>
