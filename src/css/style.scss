@@ -31,10 +31,10 @@ $blur: 8px;
 nav {
   font-family: eucir;
   /* From https://css.glass */
-  background: rgb(32, 32, 32);
-  background: -moz-linear-gradient(0deg, rgba(32, 32, 32, 0) 0%, rgba(24, 28, 24, 1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(32, 32, 32, 0) 0%, rgba(24, 28, 24, 1) 100%);
-  background: linear-gradient(0deg, rgba(32, 32, 32, 0) 0%, rgba(24, 28, 24, 1) 100%);
+  background: #181c1885;
+  background: -moz-linear-gradient(0deg, #181c1885 0%, rgba(24, 28, 24, 1) 100%);
+  background: -webkit-linear-gradient(0deg, #181c1885 0%, rgba(24, 28, 24, 1) 100%);
+  background: linear-gradient(0deg, #181c1885 0%, rgba(24, 28, 24, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020",endColorstr="#181c18",GradientType=1);
   box-shadow: 0 4px 30px $bg-color;
   backdrop-filter: blur($blur);
