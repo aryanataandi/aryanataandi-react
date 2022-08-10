@@ -46,7 +46,7 @@ const Archive = () => {
       made: '-',
       tech: ['Telegram', 'Bodymovin', 'Illustrator', 'After Effects'],
       link: {
-        github: 'https://t.me/addstickers/AmpersandChannelDividerID',
+        external: 'https://t.me/addstickers/AmpersandChannelDividerID',
       },
     },
     {
@@ -55,7 +55,8 @@ const Archive = () => {
       made: '-',
       tech: ['SCSS', 'Vue', 'Bootstrap'],
       link: {
-        github: 'https://github.com/aryanataandi/inventori-pos',
+        external: 'https://komodo-os.my.id/',
+        github: 'https://github.com/Komodo-OS-Devices/Komodo-OS-Devices.github.io',
       },
     },
   ];
