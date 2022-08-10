@@ -37,7 +37,7 @@ function Home() {
         <div className="py-5">
           <h1 className="display-5">My Work</h1>
           <Project/>
-          <div className="my-2">
+          <div className="my-4">
             <h1 className="display-6 text-center">
               Other Things I've Been Worked On
             </h1>

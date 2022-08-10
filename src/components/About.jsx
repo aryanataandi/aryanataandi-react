@@ -6,8 +6,7 @@ function About() {
     <>
       <section className="d-flex">
         <div className="m-auto text-center">
-          <h1 className='display-1'>About Me</h1>
-          <p className='fs-2'>My name is Aryanata Andipradana. I am a web developer from <span className="text-danger">Indonesia</span>.</p>
+          <h1 className='display-1'>Coming Soon!</h1>
         </div>
       </section>
     </>

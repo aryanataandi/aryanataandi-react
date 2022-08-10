@@ -46,7 +46,7 @@ function Navbar() {
             </li>
           </ul>
           <span className="navbar-text me-auto"></span>
-          <button className="btn btn-outline-primary">Hit me up!</button>
+          <button className="btn btn-outline-primary">Coming Soon!</button>
         </div>
       </div>
     </nav>

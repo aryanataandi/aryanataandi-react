@@ -6,7 +6,7 @@ export class Footer extends Component {
       <footer>
         <div className="row">
           <div className="col">
-            <p>Connect w/ me on..</p>
+            <p>Connect with me on..</p>
             <ul className='text-primary'>
               <li><a className='text-primary' href="https://twitter.com/aryanata_andi/" target='_blank' rel="noreferrer">Twitter</a></li>
               <li><a className='text-primary' href="https://instagram.com/aryanata_andi/" target='_blank' rel="noreferrer">Instagram</a></li>
