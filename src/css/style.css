@@ -10913,8 +10913,6 @@ nav {
   font-family: eucir;
   /* From https://css.glass */
   background: rgba(24, 28, 24, 0.5215686275);
-  background: linear-gradient(0deg, rgba(24, 28, 24, 0.5215686275) 0%, rgb(24, 28, 24) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#202020",endColorstr="#181c18",GradientType=1);
   box-shadow: 0 4px 30px #181c18;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
