@@ -42,7 +42,7 @@ function Home() {
               Other Things I've Been Worked On
             </h1>
             <div className="d-flex">
-              <Link  to="/archive" className="btn btn-outline-primary mx-auto px-3 py-2 mt-2">
+              <Link  to="/archive" className="btn btn-outline-primary btn-lg mx-auto px-3 py-2 mt-2">
                 Projects Archive
               </Link>
             </div>
