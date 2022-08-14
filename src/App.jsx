@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/">
         <Navbar />
         <div className="my-container px-2">
           <Routes>
@@ -20,9 +20,8 @@ function App() {
             <Route path="/archive" element={<Archive />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
-        <Footer />
+          <Footer />
         </div>
-        
       </Router>
     </>
   );
