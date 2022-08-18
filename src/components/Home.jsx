@@ -28,7 +28,7 @@ function Home() {
             I am a web developer. I build web applications and provide the best experience in solving real business problems. Occasionally, i also works on design projects such as web design, animation, video editing and more.
           </p>
 
-          <a href="/" className="btn btn-outline-primary px-3 py-2 mt-2">
+          <a href="/" className="btn btn-outline-primary btn-lg px-3 py-2 mt-2">
             More About Me
           </a>
         </div>

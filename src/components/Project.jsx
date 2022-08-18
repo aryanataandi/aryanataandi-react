@@ -56,7 +56,7 @@ const Project = () => {
               <a href={props.link} className="text-decoration-none" target="_blank" rel="noreferrer">
                 {props.taglink} &rarr;
               </a>
-              <h1 className="display-6">{props.title}</h1>
+              <h1 className="display-6 mt-2">{props.title}</h1>
               <div className="card border-0 shadow rounded-3 bg-dark my-3">
                 <div className="card-body">
                   <p className="fs-6 mb-0">{parse(props.desc)}</p>
@@ -83,7 +83,7 @@ const Project = () => {
               <a href={props.link} className="text-decoration-none" target="_blank" rel="noreferrer">
                 {props.taglink} &rarr;
               </a>
-              <h1 className="display-6">{props.title}</h1>
+              <h1 className="display-6 mt-2">{props.title}</h1>
               <div className="card border-0 shadow rounded-3 bg-dark my-3">
                 <div className="card-body">
                   <p className="fs-6 mb-0">{parse(props.desc)}</p>
