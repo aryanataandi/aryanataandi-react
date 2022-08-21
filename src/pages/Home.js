@@ -9,11 +9,21 @@ function Home() {
     <>
       <section className="d-flex">
         <div className="my-auto">
-          <h1 className="display-3">
-            I'm A<span className="text-primary" data-tip data-for="nickname">ryan</span>ata Andipradana <br />A Web Developer
+          <h1 className="display-5">
+            I'm A
+            <span className="text-primary" data-tip data-for="nickname">
+              ryan
+            </span>
+            ata Andipradana <br />A Web Developer
           </h1>
 
-          <ReactTooltip id="nickname" place="top" effect="solid" backgroundColor="white" textColor="black">
+          <ReactTooltip
+            id="nickname"
+            place="top"
+            effect="solid"
+            backgroundColor="white"
+            textColor="black"
+          >
             This is how my friends call my name. 👋
           </ReactTooltip>
         </div>
@@ -25,7 +35,10 @@ function Home() {
           </h1>
           <br />
           <p className="fs-4">
-            I am a web developer. I build web applications and provide the best experience in solving real business problems. Occasionally, i also works on design projects such as web design, animation, video editing and more.
+            I am a web developer. I build web applications and provide the best
+            experience in solving real business problems. Occasionally, i also
+            works on design projects such as web design, animation, video
+            editing and more.
           </p>
 
           <a href="/" className="btn btn-outline-primary btn-lg px-3 py-2 mt-2">
@@ -36,13 +49,16 @@ function Home() {
       <section className="d-flex px-sm-5 pt-5" id="works">
         <div className="py-5">
           <h1 className="display-5">My Work</h1>
-          <Project/>
+          <Project />
           <div className="my-4">
             <h1 className="display-6 text-center">
               Other Things I've Been Worked On
             </h1>
             <div className="d-flex">
-              <Link  to="/archive" className="btn btn-outline-primary btn-lg mx-auto px-3 py-2 mt-2">
+              <Link
+                to="/archive"
+                className="btn btn-outline-primary btn-lg mx-auto px-3 py-2 mt-2"
+              >
                 Projects Archive
               </Link>
             </div>
