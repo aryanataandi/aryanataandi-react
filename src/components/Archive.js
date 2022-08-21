@@ -85,7 +85,19 @@ const Archive = () => {
     );
   };
 
-  const Link = (props) => {};
+  const Link = (props) => {
+    {/* <a href={props[key]['external']} target="_blank" rel="noreferer">
+      <i className="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+    </a>;
+
+    <a href={props[key]['github']} target="_blank" rel="noreferer">
+      <i className="fa-brands fa-github fa-lg"></i>
+    </a>;
+
+    <a href={props[key]['private']} target="_blank" rel="noreferer">
+      <i className="fa-solid fa-lock fa-lg"></i>
+    </a>; */}
+  };
 
   return (
     <section>
