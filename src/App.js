@@ -1,10 +1,10 @@
+import Home from './pages/Home';
+import About from './pages/About';
+import Archive from './pages/Archive';
+import Contact from './pages/Contact';
+import PageNotFound from './pages/PageNotFound';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Archive from './components/Archive';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
-import PageNotFound from './components/PageNotFound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
