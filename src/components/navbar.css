@@ -4,7 +4,7 @@
     width: 100%;
     opacity: 0;
     transition-timing-function: ease;
-    transition: .5s;
+    transition: .3s;
     z-index: 1;
 }
 

@@ -47,7 +47,7 @@ const Project = () => {
   const LayoutOdd = (props) => {
     return (
       <>
-        <div className="row py-3 py-lg-5">
+        <div className="row py-4 py-lg-5">
           <div className="col-6 d-none d-lg-flex">
             <img src={props.img} alt={props.title} className="my-auto rounded-3" style={{ width: '110%' }} />
           </div>
@@ -77,7 +77,7 @@ const Project = () => {
   const LayoutEven = (props) => {
     return (
       <>
-        <div className="row py-3 py-lg-5">
+        <div className="row py-4 py-lg-5">
           <div className="col-12 col-lg-6 d-flex">
             <div className="props my-auto">
               <a href={props.link} className="text-decoration-none" target="_blank" rel="noreferrer">
