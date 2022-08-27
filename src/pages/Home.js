@@ -14,7 +14,7 @@ function Home() {
             <span className="text-primary" data-tip data-for="nickname">
               ryan
             </span>
-            ata Andipradana <br />A Web Developer
+            ata Andipradana. <br />I write code for the web.
           </h1>
 
           <ReactTooltip
@@ -35,10 +35,9 @@ function Home() {
           </h1>
           <br />
           <p className="fs-4">
-            I am a web developer. I build web applications and provide the best
-            experience in solving real business problems. Occasionally, i also
-            works on design projects such as web design, animation, video
-            editing and more.
+            I build web applications and provide the best experience in solving
+            real business problems. Sometimes, i work on design projects such
+            as web design, animation, video editing and more.
           </p>
 
           <a href="/" className="btn btn-outline-primary btn-lg px-3 py-2 mt-2">
