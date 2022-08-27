@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from '../assets/logo.svg';
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import resume from '../resume.pdf';
 
 function Navbar() {
   const [hide, setHide] = useState(false);
@@ -63,8 +64,8 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item ms-md-4 mt-2 mt-md-0">
-              <Link to="/notfound" className="btn btn-outline-primary text-primary">
-                Coming Soon
+              <Link to={resume} className="btn btn-outline-primary text-primary" target="_blank">
+                Resume
               </Link>
             </li>
           </ul>
