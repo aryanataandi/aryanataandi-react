@@ -41,4 +41,64 @@ const data = [
   },
 ];
 
-export default data;
+const archive = [
+  {
+    year: 2022,
+    title: 'SIMPUS',
+    made: 'Mitra Solusi',
+    tech: ['PHP', 'CodeIgniter', 'Firebird'],
+    link: {
+      external: 'http://simpus.salatiga.go.id/simpus',
+    },
+  },
+  {
+    year: 2022,
+    title: 'SIMAngkel',
+    made: '-',
+    tech: ['PHP', 'CodeIgniter', 'MySQL'],
+    link: {
+      private: '#',
+    },
+  },
+  {
+    year: 2021,
+    title: 'SKB Online Shop',
+    made: 'UPTD SPNF SKB Salatiga',
+    tech: ['PHP', 'CodeIgniter', 'MySQL', 'RajaOngkir API'],
+    link: {
+      external: 'https://belanja.skb.salatiga.go.id',
+      github: 'https://github.com/aryanataandi/skb-olshop',
+    },
+  },
+  {
+    year: 2021,
+    title: 'Inventory & POS App',
+    made: '-',
+    tech: ['PHP', 'CodeIgniter', 'MySQL', 'jQuery'],
+    link: {
+      github: 'https://github.com/aryanataandi/inventori-pos',
+    },
+  },
+  {
+    year: 2020,
+    title: 'TG Animated Stickers',
+    made: '-',
+    tech: ['After Effects', 'Illustrator', 'Lottie'],
+    link: {
+      external: 'https://t.me/addstickers/AmpersandChannelDividerID',
+    },
+  },
+  {
+    year: 2020,
+    title: 'Komodo OS Website',
+    made: '-',
+    tech: ['SCSS', 'Vue', 'Bootstrap'],
+    link: {
+      external: 'https://komodo-os.my.id/',
+      github:
+        'https://github.com/Komodo-OS-Devices/Komodo-OS-Devices.github.io',
+    },
+  },
+];
+
+export { data, archive };

@@ -1,6 +1,6 @@
 import React from 'react';
 import parse from 'html-react-parser';
-import data from '../data/data.js';
+import { data } from '../data/data.js';
 
 const Project = () => {
   const projects = data;
