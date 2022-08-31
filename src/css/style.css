@@ -10921,6 +10921,18 @@ nav {
     display: flex;
     text-align: center;
   } */
+  /* &.navbar-overlay::before {
+     content: '';
+     background-color: red;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+   }
+  */
 }
 nav a {
   color: #c2fbe1 !important;
@@ -10933,10 +10945,10 @@ nav .navbar-toggler {
   border: none;
 }
 nav .navbar-toggler span:nth-child(1) {
-  transform: rotate(45deg) translate(0, 8px);
+  transform: rotate(45deg) translate(4px, 4px);
 }
 nav .navbar-toggler span:nth-child(2) {
-  transform: rotate(-45deg) translate(0, -8px);
+  transform: rotate(-45deg) translate(4px, -4px);
 }
 nav .navbar-toggler:focus {
   box-shadow: none;

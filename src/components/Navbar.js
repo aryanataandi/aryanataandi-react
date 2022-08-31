@@ -83,7 +83,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarMenu">
           <span className="navbar-text me-auto"></span>
-          <ul className="navbar-nav mb-2 mb-md-0">
+          <ul className="navbar-nav my-2 my-md-0">
             <li className="nav-item ms-md-4 mt-2 mt-md-0">
               <Link to="/" className="nav-link">
                 Home
