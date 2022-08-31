@@ -10916,9 +10916,40 @@ nav {
   box-shadow: 0 4px 30px #181c18;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  /* & .show, & .collapsing {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+  } */
 }
 nav a {
   color: #c2fbe1 !important;
+}
+nav .navbar-toggler {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  justify-content: space-around;
+  border: none;
+}
+nav .navbar-toggler span:nth-child(1) {
+  transform: rotate(45deg) translate(0, 8px);
+}
+nav .navbar-toggler span:nth-child(2) {
+  transform: rotate(-45deg) translate(0, -8px);
+}
+nav .navbar-toggler:focus {
+  box-shadow: none;
+}
+nav .navbar-toggler span {
+  display: block;
+  width: 32px;
+  height: 2.2px;
+  background-color: #c2fbe1;
+  transition: all 0.3s;
+}
+nav .navbar-toggler.collapsed span {
+  transform: rotate(0) translate(0, 0);
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {

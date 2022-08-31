@@ -40,8 +40,47 @@ nav {
   backdrop-filter: blur($blur);
   -webkit-backdrop-filter: blur($blur);
 
+  /* & .show, & .collapsing {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+  } */
+
   a {
     color: $text-color !important;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-around;
+    border: none;
+    span:nth-child(1) {
+      transform: rotate(45deg) translate(0, 8px);
+    }
+
+    span:nth-child(2) {
+      transform: rotate(-45deg) translate(0, -8px);
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    span {
+      display: block;
+      width: 32px;
+      height: 2.2px;
+      background-color: $text-color;
+      transition: all .3s;
+    }
+
+    &.collapsed {
+      span {
+        transform: rotate(0) translate(0, 0);
+      }
+    }
   }
 }
 
