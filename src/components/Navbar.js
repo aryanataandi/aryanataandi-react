@@ -35,7 +35,7 @@ function Navbar() {
     >
       <div className="container-fluid my-container">
         <Link className="navbar-brand" to="/">
-          <img src={logo} width="34" className='pb-1'/>
+          <img src={logo} alt="logo" width="34" className="pb-1" />
         </Link>
         <button
           className="navbar-toggler"
@@ -64,7 +64,11 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item ms-md-4 mt-2 mt-md-0">
-              <Link to={resume} className="btn btn-outline-primary text-primary" target="_blank">
+              <Link
+                to={resume}
+                className="btn btn-outline-primary text-primary"
+                target="_blank"
+              >
                 Resume
               </Link>
             </li>

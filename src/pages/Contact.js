@@ -7,7 +7,7 @@ function Contact() {
         <div className="my-auto">
           <p className="fs-2 mb-0 text-primary">Let's talk about it</p>
           <div>
-            <h1 className="my-3">Aryanata Andipradana</h1>
+            <h1 className="my-3 display-4">Aryanata Andipradana</h1>
             <h2>
               <a
                 className="text-decoration-none"
