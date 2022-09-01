@@ -5,7 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10978,7 +10978,7 @@ a:hover {
 }
 
 p, table {
-  font-family: "Roboto Flex", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
 body {
