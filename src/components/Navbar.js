@@ -64,7 +64,7 @@ function Navbar() {
     <nav
       className={`navbar navbar-expand-md
         ${hide ? '' : 'show'}
-        ${expand ? 'pt-5' : 'py-3'}
+        ${expand ? 'pt-5 bg-transparent' : 'py-3'}
           `}
     >
       <div className="container-fluid my-container">

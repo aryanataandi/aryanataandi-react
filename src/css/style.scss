@@ -1,7 +1,8 @@
-$primary: #9578d3;
-$info: #c2fbe1;
-$text-color: #c2fbe1;
-$bg-color: #181c18;
+$primary: rgb(142, 108, 218);
+$info: rgb(194, 212, 251);
+$text-color: rgb(194, 212, 251);
+$bg-color: rgb(21, 23, 25);
+$bg-semi: rgba(21, 23, 25, 0.75);
 $blur: 8px;
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
@@ -31,7 +32,7 @@ $blur: 8px;
 nav {
   font-family: eucir;
   /* From https://css.glass */
-  background: #181c18c2;
+  background: $bg-semi;
   // background: -moz-linear-gradient(0deg, #181c1885 0%, rgba(24, 28, 24, 1) 100%);
   // background: -webkit-linear-gradient(0deg, #181c1885 0%, rgba(24, 28, 24, 1) 100%);
   // background: linear-gradient(0deg, #181c1885 0%, rgba(24, 28, 24, 1) 100%);
