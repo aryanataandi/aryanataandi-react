@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
+import Twitter from './icons/Twitter';
+import Instagram from './icons/Instagram';
+import Github from './icons/Github';
 
 export class Footer extends Component {
   render() {
     return (
-      <footer>
+      <footer className='py-4'>
         <div className="row">
           <div className="col">
-            <p>Connect with me on..</p>
-            <ul className='text-primary'>
-              <li><a className='text-primary' href="https://twitter.com/aryanata_andi/" target='_blank' rel="noreferrer">Twitter</a></li>
-              <li><a className='text-primary' href="https://instagram.com/aryanata_andi/" target='_blank' rel="noreferrer">Instagram</a></li>
-              <li><a className='text-primary' href="https://www.linkedin.com/in/aryanata-andipradana-43a02a181/" target='_blank' rel="noreferrer">LinkedIn</a></li>
+            <ul className='text-primary d-flex justify-content-center justify-content-md-start mb-0'>
+              <li className='px-3 px-md-0 pe-md-4'><a className='icon' href="https://twitter.com/aryanata_andi/" target='_blank' rel="noreferrer"><Twitter/></a></li>
+              <li className='px-3 px-md-0 pe-md-4'><a className='icon' href="https://instagram.com/aryanata_andi/" target='_blank' rel="noreferrer"><Instagram/></a></li>
+              <li className='px-3 px-md-0 pe-md-4'><a className='icon' href="https://github.com/aryanataandi/" target='_blank' rel="noreferrer"><Github/></a></li>
             </ul>
           </div>
         </div>

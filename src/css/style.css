@@ -11005,6 +11005,14 @@ footer a {
 footer p, footer a {
   font-family: eucir;
 }
+footer .icon svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: #6c757d;
+}
+footer .icon svg:hover {
+  fill: rgb(142, 108, 218);
+}
 footer ul {
   padding: 0;
 }
