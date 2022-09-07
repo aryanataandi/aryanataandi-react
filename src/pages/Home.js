@@ -55,7 +55,7 @@ function Home() {
           <Project />
           <div className="my-4" data-aos="fade-up">
             <h1 className="display-6 text-center">
-              Other Things I've Been Worked On
+              List of things I’ve built
             </h1>
             <div className="d-flex">
               <Link

@@ -49,7 +49,7 @@ const Archive = () => {
     <section>
       <div data-aos="fade" data-aos-delay="500">
         <h1 className="display-5">Project Archive</h1>
-        <p className="fs-4 text-primary">List of all things that i've made</p>
+        <p className="fs-4 text-primary">List of all things I've built</p>
       </div>
       <table className="text-info mt-5" data-aos="fade" data-aos-delay="600">
         <thead className="text-secondary">
