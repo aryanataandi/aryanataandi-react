@@ -51,7 +51,7 @@ const Archive = () => {
         <h1 className="display-5">Project Archive</h1>
         <p className="fs-4 text-primary">List of all things that i've made</p>
       </div>
-      <table className="text-info" data-aos="fade" data-aos-delay="600">
+      <table className="text-info mt-5" data-aos="fade" data-aos-delay="600">
         <thead className="text-secondary">
           <tr>
             <th scope="col">Year</th>
