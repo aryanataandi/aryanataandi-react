@@ -5,10 +5,10 @@ function Contact() {
     <>
       <section className="d-flex contact">
         <div className="my-auto">
-          <p className="fs-2 mb-0 text-primary">Let's talk about it</p>
+          <p className="fs-2 mb-0 text-primary" data-aos="fade-up">Let's talk about it</p>
           <div>
-            <h1 className="my-3 display-4">Aryanata Andipradana</h1>
-            <h2>
+            <h1 className="my-3 display-4" data-aos="fade-up" data-aos-delay="100">Aryanata Andipradana</h1>
+            <h2 data-aos="fade-up" data-aos-delay="200">
               <a
                 className="text-decoration-none"
                 href="https://wa.me/6285875351528"

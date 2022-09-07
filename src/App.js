@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Archive from './pages/Archive';
@@ -7,8 +8,19 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+      offset: 240,
+      once: true,
+    });
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <Router>

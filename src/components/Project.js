@@ -8,7 +8,7 @@ const Project = () => {
   const LayoutOdd = (props) => {
     return (
       <>
-        <div className="row py-4 py-lg-5">
+        <div className="row py-4 py-lg-5" data-aos="fade-up">
           <div className="col-6 d-none d-lg-flex">
             <img
               src={props.img}
@@ -53,7 +53,7 @@ const Project = () => {
   const LayoutEven = (props) => {
     return (
       <>
-        <div className="row py-4 py-lg-5">
+        <div className="row py-4 py-lg-5" data-aos="fade-up">
           <div className="col-12 col-lg-6 d-flex">
             <div className="props my-auto">
               <a
