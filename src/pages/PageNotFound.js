@@ -2,7 +2,7 @@ import React from 'react';
 
 function PageNotFound() {
   return (
-    <section className="d-flex">
+    <section className="d-flex" data-aos="fade-up" data-aos-delay="200">
       <div className="m-auto text-center">
         <h1 className="m-0 lh-1" style={{ fontSize: '12em' }}>
           404
