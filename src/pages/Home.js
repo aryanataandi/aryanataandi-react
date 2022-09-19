@@ -9,14 +9,14 @@ function Home() {
     <>
       <section className="d-flex">
         <div className="my-auto">
-          <h1 className="display-5 mb-0" data-aos="fade-up">
+          <h1 className="display-5 mb-0" data-aos="fade-up" data-aos-delay="1200">
             I'm A
             <span className="text-primary" data-tip data-for="nickname">
               ryan
             </span>
             ata Andipradana.
           </h1>{' '}
-          <h1 className="display-5 mb-0" data-aos="fade-up" data-aos-delay="100">
+          <h1 className="display-5 mb-0" data-aos="fade-up" data-aos-delay="1300">
             I write code for the web.
           </h1>
           <ReactTooltip

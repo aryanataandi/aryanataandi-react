@@ -68,7 +68,12 @@ function Navbar() {
           `}
     >
       <div className="container-fluid my-container">
-        <a className="navbar-brand" href="/">
+        <a
+          className="navbar-brand"
+          href="/"
+          data-aos="fade-in"
+          data-aos-delay="400"
+        >
           <img src={logo} alt="logo" width="34" className="pb-1" />
         </a>
         <button
@@ -77,6 +82,8 @@ function Navbar() {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarMenu"
+          data-aos="fade-in"
+          data-aos-delay="400"
         >
           <span></span>
           <span></span>
@@ -84,22 +91,38 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarMenu">
           <span className="navbar-text me-auto"></span>
           <ul className="navbar-nav my-2 my-md-0">
-            <li className="nav-item ms-md-4 mt-2 mt-md-0">
+            <li
+              className="nav-item ms-md-4 mt-2 mt-md-0"
+              data-aos="fade-down"
+              data-aos-delay="800"
+            >
               <Link to="/" className="nav-link">
                 Home
               </Link>
             </li>
-            <li className="nav-item ms-md-4 mt-2 mt-md-0">
+            <li
+              className="nav-item ms-md-4 mt-2 mt-md-0"
+              data-aos="fade-down"
+              data-aos-delay="900"
+            >
               <Link to="/about" className="nav-link">
                 About
               </Link>
             </li>
-            <li className="nav-item ms-md-4 mt-2 mt-md-0">
+            <li
+              className="nav-item ms-md-4 mt-2 mt-md-0"
+              data-aos="fade-down"
+              data-aos-delay="1000"
+            >
               <Link to="/contact" className="nav-link">
                 Contact
               </Link>
             </li>
-            <li className="nav-item ms-md-4 mt-3 mt-md-0">
+            <li
+              className="nav-item ms-md-4 mt-3 mt-md-0"
+              data-aos="fade-down"
+              data-aos-delay="1100"
+            >
               <Link
                 to={resume}
                 className="btn btn-outline-primary text-primary"
