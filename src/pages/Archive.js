@@ -7,7 +7,19 @@ const Archive = () => {
 
   const ExternalLink = (prop) => {
     return (
-      <a href={prop.link} className="me-3" target="_blank" rel="noreferrer">
+      <a
+        href={prop.link}
+        className="me-3"
+        target="_blank"
+        rel="noreferrer"
+        title={
+          prop.type === 'external'
+            ? 'External Link'
+            : prop.type === 'github'
+            ? 'GitHub'
+            : ''
+        }
+      >
         <i
           className={` 
         ${
