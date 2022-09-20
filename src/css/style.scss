@@ -135,6 +135,17 @@ h1, h2, h3, h4, h5, h6, p {
   color: $bg-color !important;
 }
 
+.img-project {
+  transition: .5s;
+  filter: grayscale(80%);
+  
+  &:hover {
+    transform: translateY(-.6em);
+    box-shadow: 0 4px 30px black !important;
+    filter: grayscale(0);
+  }
+}
+
 footer {
   a {
     text-decoration: none;

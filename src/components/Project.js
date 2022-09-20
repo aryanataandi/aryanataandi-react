@@ -10,14 +10,19 @@ const Project = () => {
       <>
         <div className="row py-4 py-lg-5" data-aos="fade-up">
           <div className="col-6 d-none d-lg-flex">
-            <img
-              src={props.img}
-              alt={props.title}
-              className="my-auto rounded-3"
-              style={{ width: '110%' }}
-            />
+            <a href={props.link} target="_blank" rel="noreferrer">
+              <img
+                src={props.img}
+                alt={props.title}
+                className="my-auto rounded-3 img-project"
+                style={{ width: '110%' }}
+              />
+            </a>
           </div>
-          <div className="col-12 col-lg-6 d-flex text-lg-end">
+          <div
+            className="col-12 col-lg-6 d-flex text-lg-end"
+            style={{ zIndex: '1' }}
+          >
             <div className="props my-auto">
               <a
                 href={props.link}
@@ -54,7 +59,7 @@ const Project = () => {
     return (
       <>
         <div className="row py-4 py-lg-5" data-aos="fade-up">
-          <div className="col-12 col-lg-6 d-flex">
+          <div className="col-12 col-lg-6 d-flex" style={{ zIndex: '1' }}>
             <div className="props my-auto">
               <a
                 href={props.link}
@@ -80,12 +85,14 @@ const Project = () => {
             </div>
           </div>
           <div className="col-6 d-none d-lg-inline">
-            <img
-              src={props.img}
-              alt={props.title}
-              className="my-auto rounded-3 float-end"
-              style={{ width: '110%' }}
-            />
+            <a href={props.link} target="_blank" rel="noreferrer">
+              <img
+                src={props.img}
+                alt={props.title}
+                className="my-auto rounded-3 float-end img-project"
+                style={{ width: '110%' }}
+              />
+            </a>
           </div>
         </div>
       </>
