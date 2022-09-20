@@ -113,7 +113,7 @@ const archive = [
     link: [
       {
         type: 'external',
-        link: 'https://t.me/addstickers/AmpersandChannelDividerID',
+        link: 'https://t.me/AmpersandProject',
       },
     ],
   },

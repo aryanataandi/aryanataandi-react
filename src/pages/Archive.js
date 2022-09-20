@@ -7,42 +7,24 @@ const Archive = () => {
 
   const ExternalLink = (prop) => {
     return (
-      <a href={prop.link} className="me-2" target="_blank" rel="noreferer">
-        <i className="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+      <a href={prop.link} className="me-3" target="_blank" rel="noreferrer">
+        <i
+          className={` 
+        ${
+          prop.type === 'external'
+            ? 'fa-solid fa-arrow-up-right-from-square'
+            : ''
+        }
+        ${prop.type === 'github' ? 'fa-brands fa-github' : ''}
+        ${
+          prop.type === 'private'
+            ? 'fa-solid fa-arrow-up-right-from-square'
+            : ''
+        }
+         fa-lg`}
+        ></i>
       </a>
     );
-  };
-
-  const GithubLink = (prop) => {
-    return (
-      <a href={prop.link} className="me-2" target="_blank" rel="noreferer">
-        <i className="fa-brands fa-github fa-lg"></i>
-      </a>
-    );
-  };
-
-  const PrivateLink = (prop) => {
-    return (
-      <a href={prop.link} className="me-2" target="_blank" rel="noreferer">
-        <i className="fa-solid fa-lock fa-lg"></i>
-      </a>
-    );
-  };
-
-  const Link = (props) => {
-    {
-      /* <a href={props[key]['external']} target="_blank" rel="noreferer">
-      <i className="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
-    </a>;
-
-    <a href={props[key]['github']} target="_blank" rel="noreferer">
-      <i className="fa-brands fa-github fa-lg"></i>
-    </a>;
-
-    <a href={props[key]['private']} target="_blank" rel="noreferer">
-      <i className="fa-solid fa-lock fa-lg"></i>
-    </a>; */
-    }
   };
 
   return (
@@ -62,7 +44,7 @@ const Archive = () => {
             <th scope="col" className="d-none d-md-table-cell">
               Tech
             </th>
-            {/* <th scope="col">Link</th> */}
+            <th scope="col">Link</th>
           </tr>
         </thead>
         <tbody>
@@ -74,9 +56,19 @@ const Archive = () => {
               <td className="d-none d-md-table-cell text-secondary">
                 {project.tech.join(' · ')}
               </td>
-              {/* <td>
-                <Link link={project.link}></Link>
-              </td> */}
+              <td className="d-flex">
+                {project.link.map((x, index) =>
+                  x.type === 'external' ? (
+                    <ExternalLink link={x.link} type={x.type} />
+                  ) : x.type === 'github' ? (
+                    <ExternalLink link={x.link} type={x.type} />
+                  ) : x.type === 'private' ? (
+                    <ExternalLink link={x.link} type={x.type} />
+                  ) : (
+                    '-'
+                  )
+                )}
+              </td>
             </tr>
           ))}
         </tbody>
