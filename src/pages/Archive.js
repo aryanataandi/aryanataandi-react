@@ -71,11 +71,11 @@ const Archive = () => {
               <td className="d-flex">
                 {project.link.map((x, index) =>
                   x.type === 'external' ? (
-                    <ExternalLink link={x.link} type={x.type} />
+                    <ExternalLink key={index} link={x.link} type={x.type} />
                   ) : x.type === 'github' ? (
-                    <ExternalLink link={x.link} type={x.type} />
+                    <ExternalLink key={index} link={x.link} type={x.type} />
                   ) : x.type === 'private' ? (
-                    <ExternalLink link={x.link} type={x.type} />
+                    <ExternalLink key={index} link={x.link} type={x.type} />
                   ) : (
                     '-'
                   )
